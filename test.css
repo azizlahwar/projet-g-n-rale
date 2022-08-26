@@ -14,12 +14,14 @@ font-family: 'Segoe UI', sans-serif;;
      line-height: 1.6;
  }
  .wrap {
-    width: 350px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
      margin: 50px auto;
      background: #fafafa;
 }
 .login-form{
- width: 350px;
+ 
  
    margin: 0 auto;
    border: 1px solid rgb(6, 6, 6);
@@ -137,3 +139,11 @@ text-decoration: none;
  margin: auto;
  position:relative
  }
+ @media screen and (max-width: 570px){
+	body{
+width: 100vw;
+height: 300px;
+
+  }
+ 
+}
