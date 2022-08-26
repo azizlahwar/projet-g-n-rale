@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html{
+     height: 100%;
+ }
+ body{
+  background: linear-gradient(rgb(31, 30, 30),rgb(126, 123, 123),rgb(46, 40, 40)) ;
+font-family: 'Segoe UI', sans-serif;;
+     font-size: 1rem;
+    
+     line-height: 1.6;
+ }
+ .wrap {
+    width: 350px;
+     margin: 50px auto;
+     background: #fafafa;
+}
+.login-form{
+ width: 350px;
+ 
+   margin: 0 auto;
+   border: 1px solid rgb(6, 6, 6);
+   padding: 2rem;
+   background: #1e1d1d;
+   box-shadow: #ffffff;
+   z-index: 20;
+}
+.form-input{
+   background: #fafafa;
+   border: 1px solid #eeeeee;
+   padding: 12px;
+   width: 100%;
+}
+.form-group{
+   margin-bottom: 1rem;
+}
+.form-button{
+  background: #69d2e7;
+  border: 1px solid #ddd;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+  text-transform: uppercase;
+}
+.form-button:hover{
+  background: #69c8e7;
+}
+.form-header{
+text-align: center;
+margin-bottom : 2rem;
+}
+.form-footer{
+text-align: center;
+color: #fff;
+}
+.flipcard{
+background-color: transparent;
+width : 350px;
+perspective: 1000px;
+}
+.flipcard-inner{
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+.flipcard-front, .flipcard-back{
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+}
+.flipcard-front{
+color: black;
+}
+.flipcard-back{
+background-color: dodgerblue;				
+transform: rotateY(180deg);
+}		
+input[type="checkbox"]:checked + .flipcard .flipcard-inner{
+transform: rotateY(180deg);
+}
+.form-button-register{
+background: #2c91d8;
+}
+.form-button-register:hover{
+background: #2c91a8;
+}
+.switch_form:before{
+content: " ";
+display: block;
+background:red;
+}
+.label-highlight{
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+.form-header{
+   color:#ffffff
+}
+.form-button:hover {
+   background: rgba(255, 255, 255, 0.15);
+   color: #fff;
+   -webkit-transition: all .2s ease;
+   transition: all .2s ease;
+ }
+ .form-button {
+   cursor: pointer;
+   background: none;
+   border: 1px solid rgba(255, 255, 255, 0.65);
+   border-radius: 25px;
+   color: rgba(255, 255, 255, 0.65);
+   -webkit-align-self: flex-end;
+   -ms-flex-item-align: end;
+   align-self: flex-end;
+   font-size: 12px;
+  
+   font-family: roboto;
+   font-weight: 300;
+   line-height: 2.5em;
+   margin-top: auto;
+  
+   -webkit-transition: all .2s ease;
+   transition: all .2s ease;
+ }
+ .form-button a{
+   color: #fff;
+   text-decoration: none;
+ }
+ #carouselExampleControls{
+  width: 100%;
+ margin: auto;
+ position:relative
+ }

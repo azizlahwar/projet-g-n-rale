@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login or Register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">	
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+</head>
+<body>
+ <div class="wrap">			
+    <input type="checkbox" id="form_switch" style="display: none;">
+<div class="flipcard">
+    <div class="flipcard-inner">
+    <div class="flipcard-front">
+        <form class="login-form" action="">
+                <div class="form-header">
+                    <h3>Login</h3>
+                    <p>Login to access your dashboard</p>
+                </div>
+                    <!--Email Input-->
+                <div class="form-group">
+                <input required type="text" class="form-input" name="email" placeholder="email@example.com">
+                </div>
+                <!--Password Input-->
+                <div class="form-group">
+                    <input required type="password" class="form-input" name="password" placeholder="password">
+                </div>
+                <!--Login Button-->
+                <div class="form-group">
+                  <button class="form-button" type="submit"><a href="projet1.html">login </a></button>
+                </div>
+                <div class="form-footer">
+                 Don't have an account? <label class="label-highlight" for="form_switch"> Sign Up </label>
+                </div>
+        </form>
+</div>
+<div class="flipcard-back">
+         <form class="login-form" action="">
+            <div class="form-header">
+                 <h3>Sign Up</h3>
+                <p>Register for a new account</p>
+            </div>
+    <!--Email Input-->
+    <div class="form-group">
+          <input required type="text" class="form-input" name="email" placeholder="email@example.com">
+            </div>
+            <!--Password Input-->
+            <div class="form-group">
+               <input required type="password" class="form-input" name="password" placeholder="Password">
+            </div>
+            <!--Password Input-->
+            <div class="form-group">
+                <input required type="password" class="form-input" name="confirm_password" placeholder="Confirm Password">
+            </div>
+            <!--Login Button-->
+            <div class="form-group">
+                <button class="form-button form-button-register" type="submit"><a href="projet1.html">Sign up </a></button>
+            </div>
+            <div class="form-footer">
+                Already have an account? <label class="label-highlight" for="form_switch"> Login</label>
+            </div>
+    </form>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
